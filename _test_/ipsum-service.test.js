@@ -1,6 +1,6 @@
-import Triangle from './../src/js/triangle.js';
+import Ipsum from './../src/js/ipsum-service.js';
 
-  describe('TODO', () => {
+  describe('', () => {
   test('should correctly create a triangle object with three lengths', () => {
     const TODO = new TODO();
     expect(TODO).toEqual();
@@ -8,3 +8,5 @@ import Triangle from './../src/js/triangle.js';
     expect(TODO).toEqual();
   });
 });
+
+let word = Ipsum.getWord(response)
